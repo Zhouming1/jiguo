@@ -1,0 +1,173 @@
+.report{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 34px 0 30px;
+}
+.report h1{
+    height: 128px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.report .nav>a{
+    display: inline-block;
+    width: 165px;
+    font-size: 18px;
+}
+.report .nav .on{
+    color: #fe5431;
+    border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px;
+}
+
+.report-box{
+    background: #f7f7f7;
+}
+.report-box .report{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.report .left{
+    float: left;
+}
+.report li{
+    border-radius: 6px;
+    border: 1px solid #e6e9e9;
+    margin-bottom: 13px;
+    position: relative;
+    overflow: hidden;
+}
+.report li:hover {
+    animation: logo ease-in infinite 1s;
+}
+@keyframes logo {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.report li .info{
+    background: #ffffff;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 22px;
+    overflow: hidden;
+}
+.info .title{
+    padding: 9px 0 12px;
+    font-size: 17px;
+}
+.info .btm{
+    font-size: 13px;
+    padding: 16px 0 11px;
+}
+.info .btm span{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle
+}
+.info .btm .img{
+    background: url("../img/tx.jpg") no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.info .btm .name{
+    color: #fe695a;
+}
+.info .btm .time{
+    color: #a3a3a3;
+}
+.right{
+    float: right;
+}
+.right > span {
+    display: inline-block;
+    width: 15px;
+    margin-right: 8px;
+    text-indent: 15px;
+}
+.right .zan {
+    background: url("../img/zan.png") no-repeat 0 4px;
+}
+.right .look {
+    background: url("../img/reply.png") no-repeat 0 4px;
+}
+
+.report_look{
+    background: #f7f7f7;;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+}
+/*右*/
+.report_right{
+    width: 270px;
+    float: right;
+}
+.report_right .title{
+    width: 265px;
+    text-indent: -150px;
+    border-left: 5px solid #fe5341;
+    position: relative;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    color: #a3a3a3;
+    font-weight: normal;
+}
+.report_right .imgBox{
+    margin-left: 0px;
+}
+.report_right h5{
+    color: #474747;
+    font-size: 16px;
+    padding: 5px 0;
+    text-align: left;
+}
+.report_right p{
+    font-size: 14px;
+    text-align: left;
+    color: #a3a3a3;
+}
+.guanzhu{
+    padding-top: 40px;
+}
+.guanzhu .title{
+    color: #474747;
+    font-size: 16px;
+    padding: 5px 0;
+}
+/*点击加载*/
+.playMore {
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.playMore .more-btn {
+    padding-left: 24px;
+    background: url("../img/more.png") no-repeat left center;
+    color: #fe5341;
+}
+
+.playMore .loading {
+    padding-left: 24px;
+    background: url("../img/loading-icon.gif") no-repeat left center;
+    color: #fe5341;
+}

@@ -1,0 +1,59 @@
+
+.about{
+    width: 1000px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.about>.left{
+    float: left;
+    width: 270px;
+    overflow: hidden;
+}
+.grawBg{
+    background: #f3f3f3;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+.left h2{
+    padding-left: 18px;
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 900;
+    border-bottom: 1px solid #a0a0a0;
+}
+.left dl{
+    padding: 10px 18px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.left dl>dt{
+    font-weight: bold;
+}
+.left dl>dd{
+    padding-left: 15px;
+}
+.right{
+    width: 700px;
+    float: right;
+}
+.right .grawBg{
+    padding: 25px 33px;
+}
+.right h2{
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 900;
+    border-bottom: 1px solid #a0a0a0;
+}
+.right h3{
+    font-size: 16px;
+    padding: 25px 0 20px;
+    font-weight: bold;
+}
+.right p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+.about-info{
+    color: #535353;
+}
